@@ -1,9 +1,9 @@
 import sys
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, IntegerType, StringType
-from com.snehik.data_conversion import upper_attribute
-from com.snehik.logger import Log4j
-from com.snehik.read_from_file import data_read
+from data_conversion import upper_attribute
+from logger import Log4j
+from read_from_file import data_read
 
 if __name__ == "__main__":
     spark = SparkSession.builder.appName("testing_log").getOrCreate()
