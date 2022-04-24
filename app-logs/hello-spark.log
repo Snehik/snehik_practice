@@ -1,7 +1,7 @@
-22/04/24 18:00:27 INFO pyspark-shell: Started Application with application id local-1650803426232
-22/04/24 18:00:27 INFO pyspark-shell: Application name is testing_log
-22/04/24 18:00:27 INFO pyspark-shell: Input file name for the application is D:\snehik_practice\spark_test\input\students.csv
-22/04/24 18:00:27 INFO pyspark-shell: read the file
-22/04/24 18:00:28 INFO pyspark-shell: convert to uppercase method called
-22/04/24 18:00:30 INFO pyspark-shell: Converting Name Attribute To Upper Is Completed
-22/04/24 18:00:30 INFO pyspark-shell: Application Ended
+22/04/25 00:13:41 INFO testing_log: Started Application with application id local-1650825820134
+22/04/25 00:13:41 INFO testing_log: Application name is testing_log
+22/04/25 00:13:41 INFO testing_log: Input file name for the application is D:\snehik_practice\spark_test\input\students.csv
+22/04/25 00:13:41 INFO testing_log: read the file
+22/04/25 00:13:43 INFO testing_log: convert to uppercase method called
+22/04/25 00:13:45 INFO testing_log: Converting Name Attribute To Upper Is Completed
+22/04/25 00:13:45 INFO testing_log: Application Ended

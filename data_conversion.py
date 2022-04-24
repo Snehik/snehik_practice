@@ -1,14 +1,8 @@
-from logger import Log4j
-from pyspark.sql import SparkSession
 from pyspark.sql.functions import upper
 
-
 class convert:
-
-    def __init__(self):
-        pass
-
-    logger = Log4j(spark=SparkSession.builder.getOrCreate())
+    def __init__(self, logger):
+        self.logger = logger
 
     def upper_attribute(self, in_df):
         self.logger.info("convert to uppercase method called")

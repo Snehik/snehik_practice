@@ -11,8 +11,8 @@ if __name__ == "__main__":
     spark = SparkSession.builder.appName("testing_log").getOrCreate()
 
     logger = Log4j(spark)
-    obj_rd = md_read()
-    obj_cnv = convert()
+    obj_rd = md_read(spark, logger)
+    obj_cnv = convert(logger)
 
     config = configparser.ConfigParser()
     config.read(r'config.ini')
